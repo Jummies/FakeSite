@@ -29,8 +29,8 @@ const Video = () => {
                 <div className="vidplay">
                   <ReactPlayer 
                     url={video.url} 
-                    width={260} 
-                    height={150} 
+                    width={520} 
+                    height={300} 
                     light={  
                       <div className='light'>
                         <Image 
