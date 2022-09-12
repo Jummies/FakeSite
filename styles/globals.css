@@ -67,6 +67,14 @@ footer {
   padding-bottom: 75px;
 
 }
+@media only screen and (max-width: 800px) {
+  footer {
+    padding-left: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+
 .footing {
   display: flex;
   justify-content: flex-end;
@@ -100,7 +108,14 @@ footer {
 .footrest p {
   line-height: 11px;
 }
-
+@media only screen and (max-width: 800px) {
+  .footrest {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footrest div {
+    margin-bottom: 30px;
+  }
+}
 
 
 .mid {
@@ -127,8 +142,6 @@ footer {
   margin: auto;
   margin-left: 180px;
   
- 
- 
 }
 
 .viddesc {
@@ -138,8 +151,6 @@ footer {
 
 .vidinfo:hover {
   height:max-content;
-
-  
 }
 
 .viddesc:hover {
@@ -162,7 +173,58 @@ footer {
   -webkit-mask-image: linear-gradient(to bottom, rgb(255, 0, 0, 1), rgb(255, 0, 0, 0));
 }
 
+@media only screen and (max-width: 800px) {
+  .vidblock {
 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-bottom: 40px;
+  
+  
+  }
+  
+  .vidinfo {
+    height: 260px;
+    overflow: hidden;
+  
+    margin: auto;
+    margin-left: 40px;
+    width: 250px;
+    
+  }
+  
+  .viddesc {
+    height: 150px;
+    -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255, 1), rgb(255, 255, 255, 0));
+  }
+  
+  .vidinfo:hover {
+    height:max-content;
+  }
+  
+  .viddesc:hover {
+    height:max-content;
+    -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255, 1), rgb(255, 255, 255, 1));
+  }
+  
+  .vidplay {
+  
+    margin: auto;
+
+    width: 260px;
+    height: 150px;
+    border-radius: 10px;
+    filter: sepia(100%) saturate(400%) brightness(70%) hue-rotate(-45deg);
+    -webkit-mask-image: linear-gradient(to bottom, rgb(255, 0, 0, 1), rgb(255, 0, 0, .2));
+  }
+  
+  .light {
+    -webkit-mask-image: linear-gradient(to bottom, rgb(255, 0, 0, 1), rgb(255, 0, 0, 0));
+  }
+  
+}
 
 
 
@@ -222,7 +284,66 @@ nav .logo:hover {
   width: 70px;
 }
 
+@media only screen and (max-width: 800px) {
 
+
+
+
+  nav {
+    margin: 0px 0px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #88939E;
+    
+  }
+  nav .account p {
+    height: 45px;
+    margin: auto;
+  
+    padding-top: 15px;
+    padding-right: 90px;
+  }
+  nav .help p {
+    height: 45px;
+    margin: auto;
+  
+    padding-top: 10px;
+    padding-right: 90px;
+  }
+  nav p {
+    color: #FFF;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  nav p:hover {
+    color: #4C4C51;
+    margin-left: 12px;
+    
+  }
+
+  nav .logo {
+    margin-right: auto;
+    background-image: url('./logo2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 64px;
+  
+  }
+  
+  nav .logo:hover {
+    margin-right: auto;
+    background-image: url('./animatedlogo2.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 64px;
+    width: 70px;
+  }
+}
 
 .profilepic {
   cursor: pointer;
@@ -278,6 +399,39 @@ nav .logo:hover {
   margin-top: -16px;
 }
 
+@media only screen and (max-width: 800px) {
+
+  .heading {
+    text-align: center;
+  
+    padding-top: 2px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .heading h1 {
+    font-size: 48px;
+    padding-top: 220px;
+  
+  }
+  .heading p {
+    color: #FFF;
+  
+    width: 420px;
+    margin: auto;
+
+    margin-top: -16px;
+
+  }
+  
+
+  .profilepic img {
+
+    width: 50px;
+    ;
+  }
+}
+
 .button {
   background-color:#EE2D1C;
   min-height: 55px;
@@ -310,7 +464,15 @@ nav .logo:hover {
 .cake p {
   color: #88939E;
 }
-
+@media only screen and (max-width: 800px) {
+  .cake {
+    margin: auto;
+    width: 620px;
+    height: 150px;
+    text-align: center;
+    margin-top: 120px;
+  }
+}
 .not-found {
   margin: 10%;
   margin-left: 20%;

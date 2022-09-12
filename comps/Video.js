@@ -29,8 +29,8 @@ const Video = () => {
                 <div className="vidplay">
                   <ReactPlayer 
                     url={video.url} 
-                    width={520} 
-                    height={300} 
+                    width={260} 
+                    height={150} 
                     light={  
                       <div className='light'>
                         <Image 
@@ -41,7 +41,12 @@ const Video = () => {
                         />
                       </div>
                     }
-                    playIcon={ <Image src='/assets/playbtn.png' alt='playbtn' width={140} height={140}/>}
+                    playIcon={ 
+                      <a href={video.url} target='_blank' rel='noreferrer' className="player">
+                        <Image src='/assets/playbtn.png' alt='playbtn' width={130} height={130}/>
+                      </a>
+                    
+                  }
                   />
                 </div>
               </div>
