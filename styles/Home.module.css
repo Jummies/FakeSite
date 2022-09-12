@@ -1,3 +1,37 @@
+.title {
+
+}
+
+.text {
+  /* size: 22px;
+  line-height: 28px; */
+}
+
+.redish {
+  color:#EE2D1C;
+}
+.blackish {
+  color: #4C4C51;
+}
+.blueish {
+  color: #88939E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 .container {
   padding: 0 2rem;
 }
@@ -126,4 +160,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */
