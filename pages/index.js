@@ -11,10 +11,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={'container'}>
-      {/* <Head>
-        <title>hi there</title>
-        <meta name="keywords" content="nextjs" />
-      </Head> */}
+
     
       <Header />
 

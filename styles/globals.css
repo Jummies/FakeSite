@@ -11,12 +11,10 @@ body {
   padding: 0px; 
   margin: 0px;
   font-family: 'SourceSansPro';
+  
 
 }
-.content {
-  padding: 0px; 
-  margin: 0px;
-}
+
 .container {
   padding: 0px;
   margin: 0px;
@@ -118,6 +116,8 @@ footer {
   grid-template-columns: 1fr 1fr;
   margin: auto;
   margin-bottom: 40px;
+
+
 }
 
 .vidinfo {
@@ -126,6 +126,25 @@ footer {
 
   margin: auto;
   margin-left: 180px;
+  
+ 
+ 
+}
+
+.viddesc {
+  height: 150px;
+  -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255, 1), rgb(255, 255, 255, 0));
+}
+
+.vidinfo:hover {
+  height:max-content;
+
+  
+}
+
+.viddesc:hover {
+  height:max-content;
+  -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255, 1), rgb(255, 255, 255, 1));
 }
 
 .vidplay {
@@ -146,19 +165,19 @@ footer {
 
 
 nav {
-  margin: 15px 110px;
-  padding: 10px 20px;
+  margin: 0px 0px;
+  padding: 25px 130px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-
+  background-color: #88939E;
   
 }
 nav .account p {
   height: 45px;
   margin: auto;
 
-  padding-top: 30px;
+  padding-top: 15px;
   padding-right: 90px;
 }
 nav .help p {
@@ -180,7 +199,23 @@ nav p:hover {
 }
 nav .logo {
   margin-right: auto;
+  background-image: url('./logo2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70px;
+  height: 64px;
 
+}
+
+nav .logo:hover {
+  margin-right: auto;
+  background-image: url('./animatedlogo2.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 64px;
+  width: 70px;
 }
 
 
@@ -266,8 +301,13 @@ nav .logo {
   width: 900px;
   height: 150px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 .cake p {
   color: #88939E;
+}
+
+.not-found {
+  margin: 10%;
+  margin-left: 20%;
 }

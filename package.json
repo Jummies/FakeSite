@@ -13,6 +13,7 @@
     "next": "12.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-player": "^2.10.1",
     "react-video": "^1.5.3",
     "redux": "^4.2.0",
     "video-react": "^0.15.0",
