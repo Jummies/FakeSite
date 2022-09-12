@@ -151,12 +151,16 @@ footer {
 
   margin: auto;
   margin-top: 0px;
-  width: auto;
+  width: 520px;
   height: 300px;
-
+  border-radius: 10px;
+  filter: sepia(100%) saturate(400%) brightness(70%) hue-rotate(-45deg);
+  -webkit-mask-image: linear-gradient(to bottom, rgb(255, 0, 0, 1), rgb(255, 0, 0, .2));
 }
 
-
+.light {
+  -webkit-mask-image: linear-gradient(to bottom, rgb(255, 0, 0, 1), rgb(255, 0, 0, 0));
+}
 
 
 
